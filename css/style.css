@@ -5,6 +5,7 @@ html, body {
 
 body {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  background: #000;
 }
 
 header  {
@@ -26,8 +27,8 @@ header h1 {
 
 .header-content {
   position: absolute;
-  top: 50%;
-  padding: 0 50px;
+  top: 55%;
+  padding: 50px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -41,7 +42,6 @@ header .header-content .header-content-inner {
 
 header .header-content {
   width: 100%;
-  padding: 100px 15px;
   text-align: center;
 }
 
@@ -51,7 +51,27 @@ header hr {
   width: 100px;
 }
 
-.arrow {
+@media screen and (max-width: 768px) {
+    header .arrow {
+        display: none;
+    }
+}
+
+header .arrow {
   opacity: 0;
   width: 175px;
+}
+
+header .social a {
+  color: #00a79d;
+  opacity: 0.8;
+}
+
+header .social a:hover {
+  color: #00a79d;
+  opacity: 1;
+}
+
+header .mailing {
+  margin-bottom: 100px;
 }

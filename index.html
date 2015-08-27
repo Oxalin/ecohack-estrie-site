@@ -11,6 +11,8 @@
 
   <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
@@ -30,12 +32,30 @@
         <img src="../img/logo.png" />
         <h1>ÉcoHack Estrie</h1>
         <hr>
-        <p>Inscrivez-vous à la liste d'envoie</p>
-        <form class="form-inline">
-          <input type="email" placeholder="votre@courriel.com" id="email" class="form-control" />
-          <a href="#" class="btn btn-default">Go!</a>
-        </form>
-        <img src="../img/arrow.png" class="arrow" />
+
+        <div class="mailing">
+          <p>Inscrivez-vous à la liste d'envoie</p>
+          <form action="http://ecohackestrie.us11.list-manage.com/subscribe" class="form-inline">
+            <input type="hidden" name="u" value="c46a526b689b1e3dd99923648" />
+            <input type="hidden" name="id" value="d6bb5908be" />
+
+            <div class="form-group">
+              <input type="email" placeholder="votre@courriel.com" id="email" name="MERGE0" class="form-control" required />
+            </div>
+
+            <input type="submit" id="subscribe" class="btn btn-default" value="Go!" />
+          </form>
+
+
+          <img src="../img/arrow.png" class="arrow" />
+        </div>
+
+        <div class="social">
+          <a href="https://www.facebook.com/ecohackestrie"><i class="fa fa-facebook-square fa-5x"></i></a> &nbsp;
+          <a href="https://twitter.com/EcoHackEstrie"><i class="fa fa-twitter-square fa-5x"></i></a> &nbsp;&nbsp;
+          <a href="https://instagram.com/ecohackestrie/"><i class="fa fa-instagram fa-5x"></i></a> &nbsp;&nbsp;
+          <a href="https://github.com/ecohack-estrie/"><i class="fa fa-github-square fa-5x"></i></a> &nbsp;&nbsp;
+        </div>
       </div>
     </div>
   </header>
@@ -49,7 +69,7 @@
   <script>
     $(window).ready(function() {
       $('#email').focus();
-      $('.arrow').delay(1000).animate({ opacity: 1 }, 1500);
+      $('.arrow').delay(1000).animate({ opacity: 1 }, 1250);
     });
   </script>
 
