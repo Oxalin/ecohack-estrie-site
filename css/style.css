@@ -6,7 +6,6 @@ html, body {
 body {
   font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   background: #000;
-  background-image: url(../img/trees.jpg);
 }
 
 header  {
@@ -15,6 +14,7 @@ header  {
   min-height: 100%;
   text-align: center;
   color: #fff;
+  background-image: url(../img/trees.jpg);
   background-position: center;
   background-size: cover;
 }
