@@ -1,0 +1,57 @@
+<html lang="fr">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EcoHack Estrie</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-content-inner">
+        <img src="../img/logo.png" />
+        <h1>ÉcoHack Estrie</h1>
+        <hr>
+        <p>Inscrivez-vous à la liste d'envoie</p>
+        <form class="form-inline">
+          <input type="email" placeholder="votre@courriel.com" id="email" class="form-control" />
+          <a href="#" class="btn btn-default">Go!</a>
+        </form>
+        <img src="../img/arrow.png" class="arrow" />
+      </div>
+    </div>
+  </header>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(window).ready(function() {
+      $('#email').focus();
+      $('.arrow').delay(1000).animate({ opacity: 1 }, 1500);
+    });
+  </script>
+
+</body>
+</html>
