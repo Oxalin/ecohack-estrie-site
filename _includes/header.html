@@ -1,0 +1,63 @@
+<div class="before-main-nav before-main-nav-2-b1 text-center"><a href="/index.html"><img src="/assets/images/logo.png" alt="ecohack-estrie"></a></div>
+
+<div class="main-nav-wrapper nav-wrapper-2">
+  <nav>
+    <div class="main-nav main-nav-2 type-1">
+      <div class="container">
+        <ul class="nav-main-menu">
+          {% if page.active == "accueil" %}
+              <li class="current-menu-item"><a href="/">ACCUEIL</a></li>
+          {% else %}
+              <li><a href="/">ACCUEIL</a></li>
+          {% endif %}
+
+          {% if page.active == "blogue" %}
+              <li class="current-menu-item"><a href="/blogue">BLOGUE</a></li>
+          {% else %}
+              <li><a href="/blogue">BLOGUE</a></li>
+          {% endif %}
+
+          {% if page.active == "calendrier" %}
+              <li class="current-menu-item"><a href="/">CALENDRIER</a></li>
+          {% else %}
+              <li><a href="/calendrier">CALENDRIER</a></li>
+          {% endif %}
+
+          {% if page.active == "outils" %}
+              <li class="current-menu-item"><a href="/">OUTILS</a></li>
+          {% else %}
+              <li><a href="/outils">OUTILS</a></li>
+          {% endif %}
+
+          {% if page.active == "a-propos" %}
+              <li class="current-menu-item"><a href="/">À PROPOS</a></li>
+          {% else %}
+              <li><a href="/a-propos">À PROPOS</a></li>
+          {% endif %}
+        </ul>
+        <ul class="nav-main-menu small-screen">
+          <li><a href="#">ACCUEIL</a></li>
+          <li><a href="#">BLOGUE</a></li>
+          <li><a href="#">CALENDRIER</a></li>
+          <li><a href="#">OUTILS</a></li>
+          <li><a href="#">À PROPOS</a></li>
+        </ul>
+        <div class="nav-hamburger-wrapper">
+          <div class="cell-vertical-wrapper">
+            <div class="cell-middle">
+              <div class="nav-hamburger"><span></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-social">
+          <ul class="social-01">
+            <li><a href="https://www.facebook.com/ecohackestrie"><i class="fa icon-facebook"></i></a></li>
+            <li><a href="https://twitter.com/EcoHackEstrie"><i class="fa icon-twitter"></i></a></li>
+            <li><a href="https://instagram.com/ecohackestrie/"><i class="fa icon-instagrem"></i></a></li>
+            <li><a href="https://github.com/ecohack-estrie/"><i class="fa icon-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
