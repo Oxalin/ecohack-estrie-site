@@ -1631,3 +1631,7 @@
 .icon-svg-icon-18:before {
   content: "\e0f9";
 }
+.footer-element {
+  display: inline-block;
+  margin: 0 5px;
+}
