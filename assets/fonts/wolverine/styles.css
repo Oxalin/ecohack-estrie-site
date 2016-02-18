@@ -1635,3 +1635,30 @@
   display: inline-block;
   margin: 0 5px;
 }
+.icon-svg-darksky:before {
+  display: inline-block;
+  background: url("/assets/images/svg/darksky.svg");
+  background-size: 56px 56px;
+  width: 56px;
+  height: 56px;
+  content: "";
+  margin: 0 5px;
+}
+.icon-svg-cycle:before {
+  display: inline-block;
+  background: url("/assets/images/svg/cycle.svg");
+  background-size: 56px 56px;
+  width: 56px;
+  height: 56px;
+  content: "";
+  margin: 0 5px;
+}
+.icon-svg-energy:before {
+  display: inline-block;
+  background: url("/assets/images/svg/energy.svg");
+  background-size: 56px 56px;
+  width: 56px;
+  height: 56px;
+  content: "";
+  margin: 0 5px;
+}
